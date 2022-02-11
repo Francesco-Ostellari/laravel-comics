@@ -1,0 +1,19 @@
+header {
+  width: 80%;
+  margin: 0 auto;
+}
+header .header-top {
+  background-color: #0282F9;
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+header .header-top .dc-power {
+  margin-right: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+header .header-top .additional-dc {
+  color: white;
+  text-transform: uppercase;
+}
