@@ -105,6 +105,24 @@ main .main-top .container-main-top .container-img {
   flex-wrap: wrap;
   gap: 20px;
 }
+main .main-top .container-main-top .container-img .container-card .thumb-img {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+main .main-top .container-main-top .container-img .container-card .thumb-img img {
+  width: 100%;
+}
+main .main-top .container-main-top .container-img .container-card .text {
+  margin: 10px 0 20px 0;
+  width: 150px;
+  color: white;
+  text-transform: uppercase;
+}
+main .main-top .container-main-top .container-img .container-card .text span {
+  width: 100%;
+  display: inline-block;
+}
 main .main-top .container-main-top .container-button {
   justify-content: center;
   margin-bottom: 10px;

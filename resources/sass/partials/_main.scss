@@ -32,6 +32,26 @@ main {
         padding: 50px 0;
         flex-wrap: wrap;
         gap: 20px;
+        .container-card {
+          .thumb-img {
+            width: 150px;
+            height: 150px;
+            overflow: hidden;
+            img {
+              width: 100%;
+            }
+          }
+          .text {
+            margin: 10px 0 20px 0;
+            width: 150px;
+            color: white;
+            text-transform: uppercase;
+            span {
+              width: 100%;
+              display: inline-block;
+            }
+          }
+        }
       }
       .container-button {
         justify-content: center;

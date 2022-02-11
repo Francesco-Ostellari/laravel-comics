@@ -1,7 +1,7 @@
 @extends('guest.layout.base')
 
 @section('documentTitle')
-
+  {{$nomePagina}}
 @endsection
 
 @section('content')
@@ -14,7 +14,16 @@
           <h1>current series</h1>
         </div>
         <div class="container-img flex">
-          ciao
+          @foreach ($comics as $comic)
+            <div class="container-card">
+              <div class="thumb-img">
+                <img src="{{ $comic['thumb'] }}" alt="">
+              </div>
+              <div class="text">
+                <span>{{ $comic['title'] }}</span>
+              </div>
+            </div>
+          @endforeach
         </div>
         <div class="container-button flex">
           <div class="button">
