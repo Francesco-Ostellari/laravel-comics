@@ -1,7 +1,12 @@
-* {
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 100%;
 }
 
 header {
@@ -196,8 +201,8 @@ footer .footer-top .container-footer-top .col-left ul, footer .footer-top .conta
 }
 footer .footer-top .container-footer-top .col-left ul li a, footer .footer-top .container-footer-top .col-center ul li a, footer .footer-top .container-footer-top .col-right ul li a {
   text-decoration: none;
-  color: white;
-  font-weight: 200;
+  color: #797979;
+  font-weight: 500;
   margin-bottom: 5px;
   display: inline-block;
 }
@@ -209,7 +214,8 @@ footer .footer-top .container-footer-top .col-left ul li h1, footer .footer-top 
 footer .footer-top .copyright {
   width: 80%;
   margin: 0 auto;
-  color: white;
+  color: #797979;
+  font-weight: 500;
 }
 footer .footer-top .copyright .blue {
   color: #0282F9;
