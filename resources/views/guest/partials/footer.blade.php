@@ -9,37 +9,37 @@
               </h1> 
             </li>
             <li>
-              <a href="#">
+              <a href="{{route('characters')}}">
                 Characters 
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="{{route('comics')}}">
                 Comics 
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="{{route('movies')}}">
                 Movies 
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="{{route('tv')}}">
                 TV 
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="{{route('games')}}">
                 Games 
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="{{route('videos')}}">
                 Videos 
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="{{route('news')}}">
                 News 
               </a>
             </li>
@@ -51,12 +51,12 @@
               </h1>
             </li>
               <li>
-              <a href="#">
+              <a href="{{route('footer')}}">
                 Shop DC 
               </a>
             </li>
               <li>
-              <a href="#">
+              <a href="{{route('footer')}}">
                 Shop DC Collectibles
               </a>
             </li>
@@ -70,51 +70,51 @@
               </h1>
             </li>
             <li>
-              <a href="#">
+              <a href="{{route('footer')}}">
                 Terms of Use
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="{{route('footer')}}">
                 Privacy policy
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="{{route('footer')}}">
                 Ad Choices
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="{{route('footer')}}">
                 Advertising
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="{{route('footer')}}">
                 Job
               </a>
             </li><li>
-              <a href="#">
+              <a href="{{route('footer')}}">
                 Subscriptions
               </a>
             </li><li>
-              <a href="#">
+              <a href="{{route('footer')}}">
                 Talent Workshops
               </a>
             </li><li>
-              <a href="#">
+              <a href="{{route('footer')}}">
                 CPSC Certificates
               </a>
             </li><li>
-              <a href="#">
+              <a href="{{route('footer')}}">
                 Ratings
               </a>
             </li><li>
-              <a href="#">
+              <a href="{{route('footer')}}">
                 Shop Help
               </a>
             </li><li>
-              <a href="#">
+              <a href="{{route('footer')}}">
                 Contact Us
               </a>
             </li>
@@ -128,27 +128,27 @@
               </h1>
             </li>
             <li>
-              <a href="#">
+              <a href="{{route('footer')}}">
                 DC
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="{{route('footer')}}">
                 MAD Magazine
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="{{route('footer')}}">
                 DC Kids
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="{{route('footer')}}">
                 DC Universe
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="{{route('footer')}}">
                 DC Power Visa
               </a>
             </li>
