@@ -154,4 +154,47 @@
       }
     }
   }
+  .details-bottom {
+    border-top: 1px solid #e3e3e3;
+    width: 100%;
+    .icons {
+      width: 53%;
+      margin: 0 auto;
+      display: flex;
+      .icon {
+        border-left: 1px solid #e3e3e3;
+        display: flex;
+        text-transform: uppercase;
+        color: #555560;
+        padding: 10px 20px;
+        .text-icon {
+          margin-right: 70px;
+          width: 200px;
+        }
+        .img-dc {
+          width: 37px;
+          height: 37px;
+          background: url("../../img/cta-icons.png") 0 0;
+        }
+        .img-shop {
+          width: 37px;
+          height: 37px;
+          background: url("../../img/cta-icons.png") -112px 0;
+        }
+        .img-csl {
+          width: 37px;
+          height: 37px;
+          background: url("../../img/cta-icons.png") -75px 0;
+        }
+        .img-s {
+          width: 37px;
+          height: 37px;
+          background: url("../../img/cta-icons.png") -38px 0;
+        }
+      }
+      .border-right {
+        border-right: 1px solid #e3e3e3;
+      }
+    }
+  }
 }

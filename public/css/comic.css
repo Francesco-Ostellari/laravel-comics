@@ -154,3 +154,46 @@
 .details .details-top .details-right .artist .artist-right-blue {
   color: #003F5E;
 }
+.details .details-bottom {
+  border-top: 1px solid #e3e3e3;
+  width: 100%;
+}
+.details .details-bottom .icons {
+  width: 53%;
+  margin: 0 auto;
+  display: flex;
+}
+.details .details-bottom .icons .icon {
+  border-left: 1px solid #e3e3e3;
+  display: flex;
+  text-transform: uppercase;
+  color: #555560;
+  padding: 10px 20px;
+}
+.details .details-bottom .icons .icon .text-icon {
+  margin-right: 70px;
+  width: 200px;
+}
+.details .details-bottom .icons .icon .img-dc {
+  width: 37px;
+  height: 37px;
+  background: url("../../img/cta-icons.png") 0 0;
+}
+.details .details-bottom .icons .icon .img-shop {
+  width: 37px;
+  height: 37px;
+  background: url("../../img/cta-icons.png") -112px 0;
+}
+.details .details-bottom .icons .icon .img-csl {
+  width: 37px;
+  height: 37px;
+  background: url("../../img/cta-icons.png") -75px 0;
+}
+.details .details-bottom .icons .icon .img-s {
+  width: 37px;
+  height: 37px;
+  background: url("../../img/cta-icons.png") -38px 0;
+}
+.details .details-bottom .icons .border-right {
+  border-right: 1px solid #e3e3e3;
+}

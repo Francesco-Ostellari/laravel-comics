@@ -115,6 +115,33 @@
         </div>
       </div>
     </div>
-    <div class="details-bottom"></div>
+    <div class="details-bottom">
+      <div class="icons">
+        <div class="icon">
+          <span class="text-icon">
+            digital comics
+          </span>
+          <div class="img-dc"></div>
+        </div>
+        <div class="icon">
+          <span class="text-icon">
+            shop dc
+          </span>
+          <div class="img-shop"></div>
+        </div>
+        <div class="icon">
+          <span class="text-icon">
+            comic shop location
+          </span>
+          <div class="img-csl"></div>
+        </div>
+        <div class="icon border-right">
+          <span class="text-icon">
+            subscriptions
+          </span>
+          <div class="img-s"></div>
+        </div>
+      </div>
+    </div>
   </div>
 @endsection
