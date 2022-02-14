@@ -83,16 +83,16 @@ header .header-bottom ul li input {
   border: none;
   border-bottom: 2px solid #0282F9;
 }
+header .jumbotron {
+  background-image: url(../img/jumbotron.jpg);
+  background-size: cover;
+  padding: 300px 0;
+}
 
 .flex {
   display: flex;
 }
 
-main .jumbotron {
-  background-image: url(../img/jumbotron.jpg);
-  background-size: cover;
-  padding: 300px 0;
-}
 main .main-top {
   background-color: #1A1A1A;
 }

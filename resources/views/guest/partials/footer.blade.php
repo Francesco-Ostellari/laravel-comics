@@ -14,7 +14,7 @@
               </a>
             </li>
             <li>
-              <a href="{{route('comics')}}">
+              <a href="#">
                 Comics 
               </a>
             </li>

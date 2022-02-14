@@ -24,11 +24,6 @@ Route::get('/characters', function () {
     return view('guest.characters');
 })->name('characters');
 
-Route::get('/comics', function () {
-    return view('guest.comics');
-})->name('comics');
-
-
 Route::get('/movies', function () {
     return view('guest.movies');
 })->name('movies');
@@ -65,3 +60,22 @@ Route::get('/footer', function () {
     return view('guest.footer');
 })->name('footer');
 
+Route::get('comics/{id}', function ($id) {
+    $collection = collect(config('comics'));
+    $comic = $collection->where('id', $id);
+
+    // dd($product->count());
+    if ($comic->count() === 0) {
+        abort(404);
+    }
+
+    $singleComic = '';
+    foreach ($comic as $value) {
+        $singleComic = $value;
+    }
+
+    return view('guest.comic', [
+        'comic' => $singleComic,
+        'nomePagina' => $singleComic['title']
+    ]);
+})->name('comic');

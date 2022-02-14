@@ -6,8 +6,7 @@
 
 @section('content')
   <main>
-    <div class="jumbotron">
-    </div>
+  
     <div class="main-top flex">
       <div class="container-main-top" >
         <div class="title">
@@ -15,6 +14,7 @@
         </div>
         <div class="container-img flex">
           @foreach ($comics as $comic)
+          <a href="{{route('comic', $comic['id']) }}">
             <div class="container-card">
               <div class="thumb-img">
                 <img src="{{ $comic['thumb'] }}" alt="">
@@ -23,6 +23,7 @@
                 <span>{{ $comic['title'] }}</span>
               </div>
             </div>
+          </a>
           @endforeach
         </div>
         <div class="container-button flex">
