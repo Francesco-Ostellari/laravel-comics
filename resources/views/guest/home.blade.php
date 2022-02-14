@@ -6,7 +6,6 @@
 
 @section('content')
   <main>
-  
     <div class="main-top flex">
       <div class="container-main-top" >
         <div class="title">
